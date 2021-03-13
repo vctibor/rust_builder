@@ -19,3 +19,7 @@ RUN rustc -V
 RUN cargo -V
 
 RUN cargo install cargo-deb
+
+# faciliate building Seed applications
+# https://github.com/seed-rs/seed-quickstart
+RUN cargo install cargo-make
